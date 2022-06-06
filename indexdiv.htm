@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+     <meta name="description" content="Explorando y aprendiendo HTML">
+     <title>Mi primer página web con HTML5</title>
+     <link rel="stylesheet" href="css/normalize.css">
+     <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+    <header role="banner">
+     <div class="logo">
+    <img src="img/js.jpeg" alt="logo unam">
+     </div>
+     <nav class="navegación" role="navigation"> 
+           <ul>
+               <li><a href="nosotros.htm">Sobre nosotros</a></li>
+               <li><a href="index.html">Cursos</a></li>
+               <li><a href="http://google.com" target="_blank">Ir a google</a></li>
+               <li><a href="#noticias">Ir a noticias</a></li>
+           </ul>
+    </nav>
+     </header>
+
+     <main class="contenido-principal" role="main">
+      <section>
+          <h2>Nuestras carreras</h2>
+          <div>
+              <h3>Carreras</h3>
+              <img src="img/mac.png" height="200">
+              <a href="programa.pdf" download>Descargar programa</a>
+              <p>Ventajas de la UNAM</p>
+              <ul>
+                  <li>Es gratuita</li>
+                  <ul>
+                      <li>Y para todos</li>
+                  </ul>
+                  <li>Es pública</li>
+                  <li>Puedes informarte cuando quieras</li>
+              </ul>
+
+              <p>Áreas disponibles </p>
+              <ol>
+                  <li>Básico</li>
+                  <ul>
+                      <li>Área 1</li>
+                  </ul>
+                  <li>Enlaces</li>
+                  <li>Dudas</li>
+              </ol>
+
+              <p>Sé parte de la UNAM</p>
+              <dl>
+                  <dt>Por examen</dt>
+                  <dd>Checa las convocatorias para relaizar tu examen</dd>
+                  <dt>Por programas especiales</dt>
+                  <dd>Checa las fechas y precios</dd>
+                  <dt>Ser ex-alumno</dt>
+                  <dd>Saca tu credencial</dd>
+              </dl>
+          </div>
+          <div>
+                <h3>Logo</h3>
+                <img src="img/js.jpeg" height="200">
+            </div> 
+            <div>
+                    <h3>FES</h3>
+                    <img src="img/html.png" height="200">
+                </div>
+      </section>
+
+      <section id="noticias">
+          <h2>Ultimas Noticias</h2>
+          <article role="article">
+              <h3>Aprender a repasar en el siglo XXI</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore possimus totam non est repudiandae molestias, ab asperiores. Minima provident corporis illo magni omnis mollitia? Cumque cupiditate necessitatibus magni delectus eius!</p>
+          </article>
+      </section>
+     </main> <!--.contenido-->
+     <aside role="complementary">
+      <table width="300">
+       <caption><h2>Próximas convocatorias</h2></caption>
+       <thead>
+         <tr>
+             <th>Convocatoria</th>
+             <th>Fecha</th>
+         </tr>
+       </thead>
+       <tfoot>
+         <tr>
+             <td colspan="2" align="center">No los dejes pasar</td>
+         </tr>
+       </tfoot>
+       <tbody>
+           <tr>
+               <td rowspan="2">Curso</td>
+               <td>$20</td>
+           </tr> 
+           <tr>
+            <td>$20(sabatino)</td>
+        </tr>
+           <tr>
+            <td>Maestria</td>
+            <td>$20</td>
+        </tr> 
+        <tr>
+            <td>Diplomado</td>
+            <td>$20</td>
+        </tr>
+       </tbody>
+      </table>
+     </aside>
+    </div><!--contenedor-->
+
+    <footer role="contentinfo">
+        <div class="nosotros">
+            <h3>Sobre la institución</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero doloremque quia odit non voluptatum obcaecati, cum sit.  odio amet minus suscipit?</p>
+        </div> 
+        <div class="menu">
+        <nav class="navegación" role="navigation">
+            menú aquí 
+        </nav>
+    </div> <!--menú-->
+    <p>Carreras de la institución &ndash; Todos los derechos reservados &copy; </p>
+    </footer>
+   
+</body>
+</html>
